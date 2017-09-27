@@ -1,9 +1,12 @@
 {
   "name": "ember-konami-code",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "An easy way to setup the best easter egg in your Ember applications!",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "easter-egg",
+    "konamicode"
   ],
   "license": "MIT",
   "author": "",
@@ -11,7 +14,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/Oreoz/ember-konami-code",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

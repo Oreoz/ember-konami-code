@@ -1,26 +1,34 @@
-# ember-konami-code
+# Ember Konami Code <kbd>↑</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>←</kbd> <kbd>→</kbd>  <kbd>B</kbd> <kbd>A</kbd> <kbd>ENTER</kbd>
 
-This README outlines the details of collaborating on this Ember addon.
+## Description
+
+This is addon is meant to be a simple way for you to create your own easter eggs
+within you Ember application with ease!
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-konami-code`
-* `npm install`
+Simply run `ember install ember-konami-code` and you'll be all set!
 
-## Running
+## Docs
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Simply drop the `konami-code` component in your template and wire-up an action
+that does cool stuff using the `onKonami` property!
 
-## Running Tests
+```hbs
+{{konami-code onKonami=(action 'doCoolStuff')}}
+```
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+Once your user enters the infamous code, your action will be called.
 
-## Building
+_Important Note_: The component must be rendered in order for the action to be
+called. So if you want to temporarily disable the awesomeness, simple remove the
+component from the DOM.
 
-* `ember build`
+## Contributions
+Any contribution is more than welcomed. If you plan on introducing a new feature,
+please open an issue and share your idea prior to implementing it, it could save
+you precious time!
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+## Troubleshooting
+If something is not working as expected, simply open an issue and we'll discuss
+how we'll go about fixing it!
