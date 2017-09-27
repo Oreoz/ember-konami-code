@@ -1,0 +1,1 @@
+export { default } from 'ember-konami-code/components/konami-code';

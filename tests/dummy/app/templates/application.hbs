@@ -1,3 +1,12 @@
 <h2 id="title">Welcome to Ember</h2>
 
+{{#if showComponent}}
+  {{konami-code onKonami=(action 'doSweetThings')}}
+{{/if}}
+
+{{showComponent}}
+
+<button type="button" name="button" {{action 'displayComponent'}}>Toggle</button>
+
+
 {{outlet}}
