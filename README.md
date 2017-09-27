@@ -1,5 +1,8 @@
 # Ember Konami Code <kbd>↑</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>←</kbd> <kbd>→</kbd>  <kbd>B</kbd> <kbd>A</kbd> <kbd>ENTER</kbd>
 
+[![NPM Version](https://badge.fury.io/js/ember-konami-code.svg)](https://badge.fury.io/js/ember-konami-code)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-konami-code.svg)](https://emberobserver.com/addons/ember-konami-code)
+
 ## Description
 
 This is addon is meant to be a simple way for you to create your own easter eggs
