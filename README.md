@@ -24,7 +24,7 @@ that does cool stuff using the `onKonami` property!
 Once your user enters the infamous code, your action will be called.
 
 _Important Note_: The component must be rendered in order for the action to be
-called. So if you want to temporarily disable the awesomeness, simple remove the
+called. So if you want to temporarily disable the awesomeness, simply remove the
 component from the DOM.
 
 ## Contributions
