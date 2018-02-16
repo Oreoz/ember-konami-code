@@ -1,5 +1,7 @@
 <h2 id="title">Welcome to Ember</h2>
 
+<div class="secret-message">{{secretMessage}}</div>
+
 {{#if showComponent}}
   {{konami-code onKonami=(action 'doSweetThings')}}
 {{/if}}

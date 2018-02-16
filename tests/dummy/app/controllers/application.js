@@ -5,6 +5,7 @@ const { Logger } = Ember;
 
 export default Controller.extend({
   showComponent: true,
+  secretMessage: '',
 
   actions: {
     displayComponent() {
@@ -12,6 +13,7 @@ export default Controller.extend({
     },
 
     doSweetThings() {
+      this.set('secretMessage', 'We did it!')
       Logger.info('We did it!');
     }
   }
