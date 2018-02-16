@@ -1,6 +1,7 @@
 import Ember from 'ember';
+import Controller from '@ember/controller';
 
-const { Controller, Logger } = Ember;
+const { Logger } = Ember;
 
 export default Controller.extend({
   showComponent: true,
