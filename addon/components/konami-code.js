@@ -1,6 +1,9 @@
 import Ember from 'ember';
+import Component from '@ember/component';
+import { computed } from '@ember/object';
+import { A } from '@ember/array';
 
-const { Component, computed, A, Logger } = Ember;
+const { Logger } = Ember;
 
 export default Component.extend({
   code: computed(function() {
