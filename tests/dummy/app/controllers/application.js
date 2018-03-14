@@ -1,20 +1,16 @@
-import Ember from 'ember';
 import Controller from '@ember/controller';
 
-const { Logger } = Ember;
-
 export default Controller.extend({
-  showComponent: true,
-  secretMessage: '',
+  displayComponent: true,
+  displaySecretMessage: false,
 
   actions: {
     displayComponent() {
-      this.toggleProperty('showComponent');
+      this.toggleProperty('displayComponent');
     },
 
     doSweetThings() {
-      this.set('secretMessage', 'We did it!')
-      Logger.info('We did it!');
+      this.set('displaySecretMessage', true);
     }
   }
 });

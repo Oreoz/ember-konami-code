@@ -10,7 +10,11 @@ within you Ember application with ease!
 
 ## Installation
 
-Simply run `ember install ember-konami-code` and you'll be all set!
+Simply run this command we've all come to love and you'll be all set!
+
+```sh
+ember install ember-konami-code
+```
 
 ## Docs
 
