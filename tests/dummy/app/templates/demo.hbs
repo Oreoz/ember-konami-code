@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 id="title">Welcome to Ember</h2>
+
+  {{#if displaySecretMessage}}
+    <div class="secret-message">We did it Reddit!</div>
+  {{/if}}
+
+  {{#if displayComponent}}
+    {{konami-code onKonami=(action 'doSweetThings')}}
+  {{/if}}
+
+  <div class="component-status">{{displayComponent}}</div>
+
+
+  <button id="toggle-konami" type="button" name="button" {{action 'displayComponent'}}>Toggle</button>
+</div>
