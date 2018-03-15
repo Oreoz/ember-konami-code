@@ -1,0 +1,1 @@
+{"jsonapi":{"version":"1.0"},"data":{"type":"project","id":"ember-konami-code","attributes":{"name":"ember-konami-code","version":"1.0.2","navigationIndex":{}},"relationships":{"modules":{"data":[]}}}}
