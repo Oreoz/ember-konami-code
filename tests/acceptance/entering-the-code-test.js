@@ -10,10 +10,10 @@ module('Acceptance | entering the code', hooks => {
   test('entering the code makes magic happen when the component is rendered', async assert => {
     assert.expect(6);
 
-    await visit('/');
+    await visit('/demo');
 
-    assert.equal(currentRouteName(), 'index');
-    assert.equal(currentURL(), '/');
+    assert.equal(currentRouteName(), 'demo');
+    assert.equal(currentURL(), '/demo');
 
     assert.dom('.component-status').exists();
     assert.dom('.component-status').hasText('true');
@@ -27,10 +27,10 @@ module('Acceptance | entering the code', hooks => {
   test('entering the code does nothing when the component is not rendered', async assert => {
     assert.expect(5);
 
-    await visit('/');
+    await visit('/demo');
 
-    assert.equal(currentRouteName(), 'index');
-    assert.equal(currentURL(), '/');
+    assert.equal(currentRouteName(), 'demo');
+    assert.equal(currentURL(), '/demo');
 
     await click('#toggle-konami');
 
