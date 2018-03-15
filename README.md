@@ -18,18 +18,7 @@ ember install ember-konami-code
 
 ## Docs
 
-Simply drop the `konami-code` component in your template and wire-up an action
-that does cool stuff using the `onKonami` property!
-
-```hbs
-{{konami-code onKonami=(action 'doCoolStuff')}}
-```
-
-Once your user enters the infamous code, your action will be called.
-
-_Important Note_: The component must be rendered in order for the action to be
-called. So if you want to temporarily disable the awesomeness, simply remove the
-component from the DOM.
+Visit [https://oreoz.github.io/ember-konami-code/master/](https://oreoz.github.io/ember-konami-code/master/).
 
 ## Contributions
 Any contribution is more than welcomed. If you plan on introducing a new feature,
