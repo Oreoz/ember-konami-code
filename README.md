@@ -1,5 +1,7 @@
 # Ember Konami Code <kbd>↑</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>←</kbd> <kbd>→</kbd>  <kbd>B</kbd> <kbd>A</kbd> <kbd>ENTER</kbd>
 
+[![Build Status](https://travis-ci.org/Oreoz/ember-konami-code.svg?branch=master)](https://travis-ci.org/Oreoz/ember-konami-code)
+[![Maintainability](https://api.codeclimate.com/v1/badges/095e219b930a4325014e/maintainability)](https://codeclimate.com/github/Oreoz/ember-konami-code/maintainability)
 [![NPM Version](https://badge.fury.io/js/ember-konami-code.svg)](https://badge.fury.io/js/ember-konami-code)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-konami-code.svg)](https://emberobserver.com/addons/ember-konami-code)
 
