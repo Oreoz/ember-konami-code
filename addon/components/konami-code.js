@@ -7,11 +7,11 @@ const { Logger } = Ember;
 
 export default Component.extend({
   code: computed(function() {
-    return new A([38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13]);
+    return A([38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13]);
   }),
 
   stack: computed(function() {
-    return new A();
+    return A();
   }),
 
   hasValidAction: computed('onKonami', function () {

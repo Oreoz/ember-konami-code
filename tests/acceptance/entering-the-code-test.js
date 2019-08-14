@@ -44,7 +44,7 @@ module('Acceptance | entering the code', hooks => {
 });
 
 async function enterKonamiCode() {
-  const sequence = new A([38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13]);
+  const sequence = A([38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13]);
 
   let promises = sequence.map(async key => {
     return await triggerKeyEvent('.container', 'keydown', key);
