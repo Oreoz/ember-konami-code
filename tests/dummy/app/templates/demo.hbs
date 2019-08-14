@@ -6,11 +6,11 @@
   {{/if}}
 
   {{#if displayComponent}}
-    {{konami-code onKonami=(action 'doSweetThings')}}
+    {{konami-code onKonami=(action "doSweetThings")}}
   {{/if}}
 
   <div class="component-status">{{displayComponent}}</div>
 
 
-  <button id="toggle-konami" type="button" name="button" {{action 'displayComponent'}}>Toggle</button>
+  <button id="toggle-konami" type="button" name="button" {{action "displayComponent"}}>Toggle</button>
 </div>
