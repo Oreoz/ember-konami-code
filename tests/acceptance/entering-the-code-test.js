@@ -16,7 +16,7 @@ module('Acceptance | entering the code', hooks => {
     assert.equal(currentURL(), '/demo');
 
     assert.dom('.component-status').exists();
-    assert.dom('.component-status').hasText('true');
+    assert.dom('.component-status').containsText('true');
 
     await enterKonamiCode();
 
@@ -35,7 +35,7 @@ module('Acceptance | entering the code', hooks => {
     await click('#toggle-konami');
 
     assert.dom('.component-status').exists();
-    assert.dom('.component-status').hasText('false');
+    assert.dom('.component-status').containsText('false');
 
     await enterKonamiCode();
 
