@@ -10,6 +10,8 @@
 This is addon is meant to be a simple way for you to create your own easter eggs
 within you Ember application with ease!
 
+__Currently not looking to add features to this addon, I'm simply keeping it safe and healthy with the help of Dependabot.__
+
 ## Installation
 
 Simply run this command we've all come to love and you'll be all set!
